@@ -39,6 +39,17 @@ v20.5.0
 ## Usage
 
 ```js
+➜  babel-npm-test git:(main) cat example.js 
+function @@ foo(bar) {
+  return bar * 2;
+}
+foo(10) = 5;
+
+console.log(foo(10)); 
+console.log(foo(5));
+```
+
+```js
 ➜  babel-npm-test npx babel  example.js                                                      
 const {
   assign,
