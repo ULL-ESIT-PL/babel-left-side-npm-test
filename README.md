@@ -1,6 +1,6 @@
 ## What is this?
 
-Testing Pablo's @ull-esit-pl/parser-left-side set of packages pubilshed in GitHub registry
+Testing Pablo's @ull-esit-pl/parser-left-side set of packages [published in the GitHub registry](https://github.com/orgs/ULL-ESIT-PL/packages)
 
 ### References
 
