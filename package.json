@@ -1,7 +1,7 @@
 {
-  "name": "babel-npm-test",
+  "name": "@ull-esit-pl/babel-npm-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "testing Pablo's @ull-esit-pl/parser-left-side set of packages in GitHub registry",
   "main": "index.js",
   "registry": "https://npm.pkg.github.com",
   "scripts": {
