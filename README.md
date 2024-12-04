@@ -38,6 +38,15 @@ v20.5.0
 
 ## Usage
 
+```json 
+➜  babel-npm-test git:(main) cat babel.config.js 
+module.exports = {
+  "plugins": [
+    "@ull-esit-pl/babel-plugin-left-side-plugin"
+  ],
+}
+```
+
 ```js
 ➜  babel-npm-test git:(main) cat example.js 
 function @@ foo(bar) {
