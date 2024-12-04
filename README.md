@@ -21,8 +21,8 @@ v20.5.0
 ```
 
 
+`➜  babel-npm-test jq '.devDependencies' package.json`
 ```json
-➜  babel-npm-test jq '.devDependencies' package.json 
 {
   "@babel/cli": "^7.10.1",
   "@ull-esit-pl/babel-plugin-left-side-plugin": "^1.0.1",
@@ -38,7 +38,7 @@ v20.5.0
 
 ## Usage
 
-```bash
+```js
 ➜  babel-npm-test npx babel  example.js                                                      
 const {
   assign,
