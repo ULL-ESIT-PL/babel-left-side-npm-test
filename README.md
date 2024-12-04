@@ -15,11 +15,7 @@ v20.5.0
 
 ## Install
 
-```bash
-➜  babel-npm-test git:(main) ✗ cat ~/.npmrc | grep '@ull-esit-pl:'
-@ull-esit-pl:registry=https://npm.pkg.github.com
-```
-
+### devDependencies
 
 `➜  babel-npm-test jq '.devDependencies' package.json`
 ```json
@@ -29,6 +25,13 @@ v20.5.0
   "@ull-esit-pl/babel-plugin-left-side-support": "^1.0.0",
   "@ull-esit-pl/parser-left-side": "^1.0.0"
 }
+```
+
+### Registry configuration
+
+```bash
+➜  babel-npm-test git:(main) ✗ cat ~/.npmrc | grep '@ull-esit-pl:'
+@ull-esit-pl:registry=https://npm.pkg.github.com
 ```
 
 ```bash
