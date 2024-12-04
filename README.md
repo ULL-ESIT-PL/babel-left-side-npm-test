@@ -1,14 +1,20 @@
+## What is this?
+
+Testing Pablo's @ull-esit-pl/parser-left-side set of packages pubilshed in GitHub registry
+
+### References
+
+- https://github.com/ULL-ESIT-PL/babel-tanhauhau/tree/pablo-tfg
+- https://github.com/ULL-ESIT-PL/babel-learning/tree/main
+- https://github.com/ULL-ESIT-PL/beca-colaboracion/tree/main
+
+
+
 ## TODO
 
 -  README.md is the one babel has. It has to change to be specific about the extension for the three packages,
 -  Add `-D` to all install instructions and remove the version number: `npm install @ull-esit-pl/babel-plugin-left-side-plugin -D`
 -  Do we need two separated packages for the plugin and the support? Can we have a single package?
-
-## References
-
-- https://github.com/ULL-ESIT-PL/babel-tanhauhau/tree/pablo-tfg
-- https://github.com/ULL-ESIT-PL/babel-learning/tree/main
-- https://github.com/ULL-ESIT-PL/beca-colaboracion/tree/main
 
 ## Node and npm versions
 
