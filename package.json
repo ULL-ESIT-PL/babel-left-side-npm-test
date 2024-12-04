@@ -1,0 +1,19 @@
+{
+  "name": "babel-npm-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "registry": "https://npm.pkg.github.com",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Casiano Rodriguez Leon <crguezl@ull.edu.es> (https://crguezl.github.io/)",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@ull-esit-pl/babel-plugin-left-side-plugin": "^1.0.1",
+    "@ull-esit-pl/babel-plugin-left-side-support": "^1.0.0",
+    "@ull-esit-pl/parser-left-side": "^1.0.0"
+  }
+}
