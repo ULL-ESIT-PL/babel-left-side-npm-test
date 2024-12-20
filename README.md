@@ -108,7 +108,7 @@ and then compile it using the installed packages:
 ```
 This will output the compiled code to the console:
 
-```bash                                                      
+```js                                                      
 const {
   assign,
   functionObject
