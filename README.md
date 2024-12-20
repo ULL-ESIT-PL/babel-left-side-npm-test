@@ -147,7 +147,8 @@ or alternatively, use the `-o` option to save the output to a file and then run 
 - The actual code implementation: https://github.com/ULL-ESIT-PL/babel-tanhauhau/tree/pablo-tfg
 - Our tutorial on babel: https://github.com/ULL-ESIT-PL/babel-learning/tree/main
 - Some internal information: https://github.com/ULL-ESIT-PL/beca-colaboracion/tree/main
-- The original idea of the project: https://www.authorea.com/users/147476/articles/1235078-function-expressions-on-the-left-side-of-assignments
+- The original idea of the project is explained in this draft: https://www.authorea.com/users/147476/articles/1235078-function-expressions-on-the-left-side-of-assignments (submitted to Science of Computer Programming
+ journal)
 
 ## TODO
 
