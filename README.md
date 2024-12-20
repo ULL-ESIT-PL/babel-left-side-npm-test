@@ -41,12 +41,6 @@ Testing Pablo's [@ull-esit-pl/parser-left-side](https://github.com/orgs/ULL-ESIT
 
 
 
-## TODO
-
--  README.md is the one babel has. It has to change to be specific about the extension for the three packages,
--  Add `-D` to all install instructions and remove the version number: `npm install @ull-esit-pl/babel-plugin-left-side-plugin -D`
--  Do we need two separated packages for the plugin and the support? Can we have a single package?
-
 ## Node and npm versions
 
 ```bash
@@ -138,3 +132,13 @@ or alternatively:
 5
 10
 ```
+
+## TODO
+
+-  README.md is the one babel has. It has to change to be specific about the extension for the three packages,
+-  Add `-D` to all install instructions and remove the version number: `npm install @ull-esit-pl/babel-plugin-left-side-plugin -D`
+-  Do we need two separated packages for the plugin and the support? Can we have a single package?
+
+## License
+
+[MIT](https://couto.mit-license.org/)
