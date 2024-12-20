@@ -102,7 +102,11 @@ module.exports = {
 and then compile it using the installed packages:
 
 ```js
-➜  babel-npm-test npx babel  example.js                                                      
+➜  babel-npm-test npx babel  example.js
+```
+This will output the compiled code to the console:
+
+```bash                                                      
 const {
   assign,
   functionObject
@@ -115,7 +119,11 @@ console.log(foo(10));
 console.log(foo(5));
 ```
 
+If you want to save it to a file, use the `-o` option.
+
 ## Running
+
+You can pipe the output to `node`:
 
 ```bash
 ➜  babel-npm-test npx babel  example.js | node  -
@@ -123,7 +131,7 @@ console.log(foo(5));
 10
 ```
 
-or alternatively:
+or alternatively, use the `-o` option to save the output to a file and then run it:
 
 ```
 ➜  babel-left-side-npm-test git:(main) npx babel  example.js -o example.cjs
