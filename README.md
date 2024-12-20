@@ -152,9 +152,10 @@ or alternatively, use the `-o` option to save the output to a file and then run 
 
 ## TODO
 
--  README.md is the one babel has. It has to change to be specific about the extension for the three packages,
--  Add `-D` to all install instructions and remove the version number: `npm install @ull-esit-pl/babel-plugin-left-side-plugin -D`
--  Do we need two separated packages for the plugin and the support? Can we have a single package?
+- We need version numbers to control the progress
+- README.md is the one babel has. It has to change to be specific about the extension for the three packages,
+- Add `-D` to all install instructions and remove the version number: `npm install @ull-esit-pl/babel-plugin-left-side-plugin -D`
+- Do we need two separated packages for the plugin and the support? Can we have a single package?
 
 ## License
 
