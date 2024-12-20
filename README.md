@@ -23,7 +23,7 @@ These *assignable* functions can be later modified  using the assign expression:
 foo(10) = 5;
 ```
 
-Here is the full code for our hello left-side-plugin example:
+Here is the full code for our "hello" left-side-plugin example:
 
 `➜  babel-npm-test git:(main) cat example.js`
 ```js
@@ -36,13 +36,7 @@ console.log(foo(10)); //  5
 console.log(foo(5));  // 10
 ```
 
-Testing Pablo's [@ull-esit-pl/parser-left-side](https://github.com/orgs/ULL-ESIT-PL/packages/npm/package/parser-left-side) set of packages [published in the GitHub registry](https://github.com/orgs/ULL-ESIT-PL/packages) inside the [ull-esit-pl](https://github.com/ULL-ESIT-PL/) organization.
-
-### References
-
-- The actual code implementation: https://github.com/ULL-ESIT-PL/babel-tanhauhau/tree/pablo-tfg
-- Our tutorial on babel: https://github.com/ULL-ESIT-PL/babel-learning/tree/main
-- Some internal information: https://github.com/ULL-ESIT-PL/beca-colaboracion/tree/main
+Testing Pablo Santana's [@ull-esit-pl/parser-left-side](https://github.com/orgs/ULL-ESIT-PL/packages/npm/package/parser-left-side) set of packages [published in the GitHub registry](https://github.com/orgs/ULL-ESIT-PL/packages) inside the [ull-esit-pl](https://github.com/ULL-ESIT-PL/) organization.
 
 
 
@@ -137,6 +131,12 @@ or alternatively:
 5
 10
 ```
+
+## References
+
+- The actual code implementation: https://github.com/ULL-ESIT-PL/babel-tanhauhau/tree/pablo-tfg
+- Our tutorial on babel: https://github.com/ULL-ESIT-PL/babel-learning/tree/main
+- Some internal information: https://github.com/ULL-ESIT-PL/beca-colaboracion/tree/main
 
 ## TODO
 
