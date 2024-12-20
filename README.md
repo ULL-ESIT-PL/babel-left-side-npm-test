@@ -1,5 +1,36 @@
 ## What is this?
 
+Pablo Santana's [@ull-esit-pl/parser-left-side](https://github.com/orgs/ULL-ESIT-PL/packages/npm/package/parser-left-side) set of packages [published in the GitHub registry](https://github.com/orgs/ULL-ESIT-PL/packages) inside the [ull-esit-pl](https://github.com/ULL-ESIT-PL/) organization extend the JavaScript language with a new kind of functions.
+
+### Syntax
+
+These packages extend JS  with a new kind of functions, the `@@` functions (we lack of a name for this class of functions: *assignable*? *pure*?):
+
+```js 
+function @@ foo(bar) {
+  return bar * 2;
+}
+```
+
+These *assignable* functions can be later modified  using the assign expression:
+
+```js
+foo(10) = 5;
+```
+
+Here is the full code for the "hello left-side-plugin" example:
+
+```js
+➜  babel-npm-test git:(main) cat example.js 
+function @@ foo(bar) {
+  return bar * 2;
+}
+foo(10) = 5;
+
+console.log(foo(10)); //  5
+console.log(foo(5));  // 10
+```
+
 Testing Pablo's [@ull-esit-pl/parser-left-side](https://github.com/orgs/ULL-ESIT-PL/packages/npm/package/parser-left-side) set of packages [published in the GitHub registry](https://github.com/orgs/ULL-ESIT-PL/packages) inside the [ull-esit-pl](https://github.com/ULL-ESIT-PL/) organization.
 
 ### References
@@ -27,6 +58,23 @@ v20.5.0
 
 ## Install
 
+These packages use the GitHub registry instead of the npm registry. Therefore, remember
+to set the registry entry in your `.npmrc` file:
+
+```bash
+➜  babel-npm-test git:(main) ✗ cat ~/.npmrc | grep '@ull-esit-pl:'
+@ull-esit-pl:registry=https://npm.pkg.github.com
+```
+
+or set an entry `registry` in your `package.json` file:
+
+```bash
+➜  babel-npm-test git:(main) ✗ jq '.registry' package.json 
+"https://npm.pkg.github.com"
+```
+
+Then you can proceed to install the packages:
+
 ```
 npm i -D @babel/cli@7.10 @ull-esit-pl/babel-plugin-left-side-plugin @ull-esit-pl/babel-plugin-left-side-support @ull-esit-pl/parser-left-side 
 ```
@@ -43,48 +91,9 @@ Your package.json `devDependencies` section will look similar to this:
 }
 ```
 
-### Registry configuration
-
-```bash
-➜  babel-npm-test git:(main) ✗ cat ~/.npmrc | grep '@ull-esit-pl:'
-@ull-esit-pl:registry=https://npm.pkg.github.com
-```
-
-```bash
-➜  babel-npm-test git:(main) ✗ jq '.registry' package.json 
-"https://npm.pkg.github.com"
-```
 
 ## Usage
 
-### Syntax
-
-This package extends JS  with a new kind of functions, the `@@` functions (we lack of a name for this class of functions: *assignable*? *pure*?):
-
-```js 
-function @@ foo(bar) {
-  return bar * 2;
-}
-```
-
-These *assignable* functions can be later modified  using the assign expression:
-
-```js
-foo(10) = 5;
-```
-
-Here is the full code for the "hello left-side-plugin" example:
-
-```js
-➜  babel-npm-test git:(main) cat example.js 
-function @@ foo(bar) {
-  return bar * 2;
-}
-foo(10) = 5;
-
-console.log(foo(10)); //  5
-console.log(foo(5));  // 10
-```
 
 To compile it add a `babel.config.js` to your workspace folder:
 
