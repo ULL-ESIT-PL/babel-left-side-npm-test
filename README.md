@@ -77,13 +77,13 @@ npm i -D @babel/cli@7.10 @ull-esit-pl/babel-plugin-left-side-plugin @ull-esit-pl
 
 Your package.json `devDependencies` section will look similar to this:
 
-`➜  babel-npm-test jq '.devDependencies' package.json`
+`➜  babel-left-side-npm-test git:(main) ✗ jq '.devDependencies' package.json`
 ```json
 {
   "@babel/cli": "^7.10.1",
-  "@ull-esit-pl/babel-plugin-left-side-plugin": "^1.0.1",
-  "@ull-esit-pl/babel-plugin-left-side-support": "^1.0.0",
-  "@ull-esit-pl/parser-left-side": "^1.0.0"
+  "@ull-esit-pl/babel-plugin-left-side-plugin": "latest",
+  "@ull-esit-pl/babel-plugin-left-side-support": "latest",
+  "@ull-esit-pl/parser-left-side": "latest"
 }
 ```
 
