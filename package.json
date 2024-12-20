@@ -1,11 +1,14 @@
 {
-  "name": "@ull-esit-pl/babel-npm-test",
+  "name": "@ull-esit-pl/babel-left-side-npm-test",
   "version": "1.0.0",
   "description": "testing Pablo's @ull-esit-pl/parser-left-side set of packages in GitHub registry",
   "main": "index.js",
   "registry": "https://npm.pkg.github.com",
   "scripts": {
-    "save": "git ci -am doc; git push"
+    "save": "git ci -am doc; git push",
+    "test": "npm run build && node example.cjs",
+    "build": "babel example.js -o example.cjs",
+    "show": "npm run build && cat -n example.cjs"
   },
   "keywords": [],
   "author": "Casiano Rodriguez Leon <crguezl@ull.edu.es> (https://crguezl.github.io/)",
