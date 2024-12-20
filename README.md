@@ -86,10 +86,9 @@ Your package.json `devDependencies` section will look similar to this:
 ```
 
 
-## Usage
+## Compiling the code
 
-
-To compile it add a `babel.config.js` to your workspace folder:
+To compile the example above add a `babel.config.js` to your workspace folder:
 
 `➜  babel-npm-test git:(main) cat babel.config.js`
 ```js
@@ -100,7 +99,7 @@ module.exports = {
 }
 ```
 
-and then used the installed packages:
+and then compile it using the installed packages:
 
 ```js
 ➜  babel-npm-test npx babel  example.js                                                      
