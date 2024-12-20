@@ -40,13 +40,11 @@ console.log(foo(10)); //  5
 console.log(foo(5));  // 10
 ```
 
-Testing Pablo Santana's [@ull-esit-pl/parser-left-side](https://github.com/orgs/ULL-ESIT-PL/packages/npm/package/parser-left-side) set of packages [published in the GitHub registry](https://github.com/orgs/ULL-ESIT-PL/packages) inside the [ull-esit-pl](https://github.com/ULL-ESIT-PL/) organization.
-
-
-
+You can fork this repo and test the packages in your own workspace.
 
 ## Install
 
+```bash
 Here are the node and npm versions I have used to test the packages:
 
 ```bash
