@@ -94,3 +94,12 @@ console.log(foo(5));
 5
 10
 ```
+
+or alternatively:
+
+```
+➜  babel-left-side-npm-test git:(main) npx babel  example.js -o example.cjs
+➜  babel-left-side-npm-test git:(main) ✗ node example.cjs 
+5
+10
+```
