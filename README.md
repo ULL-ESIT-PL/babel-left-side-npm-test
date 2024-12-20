@@ -18,10 +18,10 @@ These *assignable* functions can be later modified  using the assign expression:
 foo(10) = 5;
 ```
 
-Here is the full code for the "hello left-side-plugin" example:
+Here is the full code for our hello left-side-plugin example:
 
+`➜  babel-npm-test git:(main) cat example.js`
 ```js
-➜  babel-npm-test git:(main) cat example.js 
 function @@ foo(bar) {
   return bar * 2;
 }
