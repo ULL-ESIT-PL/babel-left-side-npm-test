@@ -27,6 +27,10 @@ v20.5.0
 
 ## Install
 
+```
+npm i @babel/cli@7.10 @ull-esit-pl/babel-plugin-left-side-plugin @ull-esit-pl/babel-plugin-left-side-support @ull-esit-pl/parser-left-side 
+```
+
 ### devDependencies
 
 `➜  babel-npm-test jq '.devDependencies' package.json`
@@ -53,6 +57,37 @@ v20.5.0
 
 ## Usage
 
+### Syntax
+
+This package extends JS  with a new kind of functions, the `@@` functions (we lack of a name for this class of functions: *assignable*? *pure*?):
+
+```js 
+function @@ foo(bar) {
+  return bar * 2;
+}
+```
+
+These *assignable* functions can be later modified  using the assign expression:
+
+```js
+foo(10) = 5;
+```
+
+Here is the full code for the "hello left-side-plugin" example:
+
+```js
+➜  babel-npm-test git:(main) cat example.js 
+function @@ foo(bar) {
+  return bar * 2;
+}
+foo(10) = 5;
+
+console.log(foo(10)); //  5
+console.log(foo(5));  // 10
+```
+
+To compile it add a `babel.config.js` to your workspace folder:
+
 `➜  babel-npm-test git:(main) cat babel.config.js`
 ```js
 module.exports = {
@@ -62,16 +97,7 @@ module.exports = {
 }
 ```
 
-```js
-➜  babel-npm-test git:(main) cat example.js 
-function @@ foo(bar) {
-  return bar * 2;
-}
-foo(10) = 5;
-
-console.log(foo(10)); 
-console.log(foo(5));
-```
+and then used the installed packages:
 
 ```js
 ➜  babel-npm-test npx babel  example.js                                                      
