@@ -1,7 +1,7 @@
 ## What is this?
 
 > [!CAUTION]
-> This is a work in progress. The syntax and the semantic of the proposed extension to JavaScript are not yet fully defined. The packages are published in the GitHub registry, but they are not yet ready for production.
+> This is a work in progress. The syntax and the semantic of the proposed extension to JavaScript are not yet fully defined and tested. The packages are published in the GitHub registry, but they are not ready for production.
 
 
 This is a repo illustrating how to use 
