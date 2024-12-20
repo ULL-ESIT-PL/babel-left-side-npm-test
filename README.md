@@ -40,7 +40,10 @@ Testing Pablo Santana's [@ull-esit-pl/parser-left-side](https://github.com/orgs/
 
 
 
-## Node and npm versions
+
+## Install
+
+Here are the node and npm versions I have used to test the packages:
 
 ```bash
 ➜  babel-npm-test node --version
@@ -48,8 +51,6 @@ v20.5.0
 ➜  babel-npm-test npm --version
 9.8.0
 ```
-
-## Install
 
 These packages use the GitHub registry instead of the npm registry. Therefore, remember
 to set the registry entry in your `.npmrc` file:
