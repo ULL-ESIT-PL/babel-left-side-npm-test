@@ -28,10 +28,10 @@ v20.5.0
 ## Install
 
 ```
-npm i @babel/cli@7.10 @ull-esit-pl/babel-plugin-left-side-plugin @ull-esit-pl/babel-plugin-left-side-support @ull-esit-pl/parser-left-side 
+npm i -D @babel/cli@7.10 @ull-esit-pl/babel-plugin-left-side-plugin @ull-esit-pl/babel-plugin-left-side-support @ull-esit-pl/parser-left-side 
 ```
 
-### devDependencies
+Your package.json `devDependencies` section will look similar to this:
 
 `➜  babel-npm-test jq '.devDependencies' package.json`
 ```json
