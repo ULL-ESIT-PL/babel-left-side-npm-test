@@ -35,9 +35,9 @@ Testing Pablo's [@ull-esit-pl/parser-left-side](https://github.com/orgs/ULL-ESIT
 
 ### References
 
-- https://github.com/ULL-ESIT-PL/babel-tanhauhau/tree/pablo-tfg
-- https://github.com/ULL-ESIT-PL/babel-learning/tree/main
-- https://github.com/ULL-ESIT-PL/beca-colaboracion/tree/main
+- The actual code implementation: https://github.com/ULL-ESIT-PL/babel-tanhauhau/tree/pablo-tfg
+- Our tutorial on babel: https://github.com/ULL-ESIT-PL/babel-learning/tree/main
+- Some internal information: https://github.com/ULL-ESIT-PL/beca-colaboracion/tree/main
 
 
 
