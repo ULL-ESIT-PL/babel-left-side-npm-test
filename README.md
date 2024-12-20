@@ -4,7 +4,7 @@ Pablo Santana's [@ull-esit-pl/parser-left-side](https://github.com/orgs/ULL-ESIT
 
 ### Syntax
 
-These packages extend JS  with a new kind of functions, the `@@` functions (we lack of a name for this class of functions: *assignable*? *pure*?):
+These packages extend JS  with a new kind of functions, the `@@` functions (we lack of a name for this class of functions: *assignable*? *pure*?). Here is an example of declaring an *assignable* function:
 
 ```js 
 function @@ foo(bar) {
