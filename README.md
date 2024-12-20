@@ -1,6 +1,10 @@
 ## What is this?
 
-Pablo Santana's [@ull-esit-pl/parser-left-side](https://github.com/orgs/ULL-ESIT-PL/packages/npm/package/parser-left-side) set of packages [published in the GitHub registry](https://github.com/orgs/ULL-ESIT-PL/packages) inside the [ull-esit-pl](https://github.com/ULL-ESIT-PL/) organization extend the JavaScript language with a new kind of functions.
+Pablo Santana's set of packages [published in the GitHub registry](https://github.com/orgs/ULL-ESIT-PL/packages) inside the [ull-esit-pl](https://github.com/ULL-ESIT-PL/) organization extend the JavaScript language with a new kind of functions. The packages are:
+
+- [@ull-esit-pl/parser-left-side](https://github.com/orgs/ULL-ESIT-PL/packages/npm/package/parser-left-side) 
+- babel-plugin-left-side-support 
+- @ull-esit-pl/parser-left-side
 
 ### Syntax
 
