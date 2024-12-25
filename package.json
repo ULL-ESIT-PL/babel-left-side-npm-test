@@ -16,8 +16,8 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.10.1",
-    "@ull-esit-pl-2425/babel-parser": "latest",
+    "@ull-esit-pl-2425/babel-plugin-left-side": "latest",
     "@ull-esit-pl-2425/babel-plugin-left-side-support": "latest",
-    "@ull-esit-pl-2425/parser-left-side": "latest"
+    "@ull-esit-pl-2425/babel-parser": "latest"
   }
 }
