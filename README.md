@@ -44,7 +44,6 @@ You can fork this repo and test the packages in your own workspace.
 
 ## Install
 
-```bash
 Here are the node and npm versions I have used to test the packages:
 
 ```bash
@@ -62,7 +61,7 @@ to set the registry entry in your `.npmrc` file:
 @ull-esit-pl-2425:registry=https://npm.pkg.github.com
 ```
 
-or set an entry `registry` in your `package.json` file:
+and set an entry `registry` in your `package.json` file:
 
 ```bash
 ➜  babel-npm-test git:(main) ✗ jq '.registry' package.json 
