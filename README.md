@@ -61,7 +61,7 @@ to set the registry entry in your `.npmrc` file:
 @ull-esit-pl-2425:registry=https://npm.pkg.github.com
 ```
 
-and set an entry `registry` in your `package.json` file:
+If you set an entry `registry` in your `package.json` file that means this package will be published in the mentioned registry:
 
 ```bash
 ➜  babel-npm-test git:(main) ✗ jq '.registry' package.json 
