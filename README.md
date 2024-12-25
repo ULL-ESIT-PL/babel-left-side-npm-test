@@ -8,7 +8,7 @@ This is a repo illustrating how to use
 the set of packages [published in the GitHub registry](https://github.com/orgs/ULL-ESIT-PL-2425/packages) inside the [ull-esit-pl-2425](https://github.com/ULL-ESIT-PL-2425/) organization. These packages extend the JavaScript language with a new kind of functions. The packages are:
 
 - The JS parser modified: [@ull-esit-pl-2425/babel-parser](https://github.com/orgs/ULL-ESIT-PL-2425/packages/npm/package/babel-parser)
-- The AST transformation plugin: [@ull-esit-pl-2425/babel-plugin-left-side-plugin ](https://github.com/orgs/ULL-ESIT-PL-2425/packages/npm/package/babel-plugin-left-side-plugin) 
+- The AST transformation plugin: [@ull-esit-pl-2425/babel-plugin-left-side ](https://github.com/orgs/ULL-ESIT-PL-2425/packages/npm/package/babel-plugin-left-side) 
 - The support library: [@ull-esit-pl-2425/babel-plugin-left-side-support](https://github.com/orgs/ULL-ESIT-PL-2425/packages/npm/package/babel-plugin-left-side-support) 
 
 ### The proposed Syntax and Semantic
