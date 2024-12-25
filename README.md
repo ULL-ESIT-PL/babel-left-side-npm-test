@@ -4,7 +4,7 @@
 > This is a work in progress. The syntax and the semantic of the proposed extension to JavaScript are not yet fully defined and tested. The packages are published in the GitHub registry, but they are not ready for production.
 
 
-This is a repo illustrating how to use 
+This branch `crguezl` from this  repo illustrates how to use 
 the set of packages [published in the GitHub registry](https://github.com/orgs/ULL-ESIT-PL-2425/packages) inside the [ull-esit-pl-2425](https://github.com/ULL-ESIT-PL-2425/) organization. These packages extend the JavaScript language with a new kind of functions. The packages are:
 
 - The JS parser modified: [@ull-esit-pl-2425/babel-parser](https://github.com/orgs/ULL-ESIT-PL-2425/packages/npm/package/babel-parser)
