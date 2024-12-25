@@ -4,8 +4,11 @@
 > This is a work in progress. The syntax and the semantic of the proposed extension to JavaScript are not yet fully defined and tested. The packages are published in the GitHub registry, but they are not ready for production.
 
 
-This is a repo illustrating how to use 
-Pablo Santana's set of packages [published in the GitHub registry](https://github.com/orgs/ULL-ESIT-PL/packages) inside the [ull-esit-pl](https://github.com/ULL-ESIT-PL/) organization. These packages extend the JavaScript language with a new kind of functions. The packages are:
+This branch of this  repo illustrates how to use 
+Pablo Santana's set of packages [published in the GitHub registry](https://github.com/orgs/ULL-ESIT-PL/packages) inside the [ull-esit-pl](https://github.com/ULL-ESIT-PL/) organization. To see how to use the packages published from the repo [ULL-ESIT-PL-2425/parser-left-side-crguezl](https://github.com/ULL-ESIT-PL-2425/parser-left-side-crguezl) go to the branch [crguezl](https://github.com/ULL-ESIT-PL/babel-left-side-npm-test/tree/crguezl). 
+
+
+These packages extend the JavaScript language with a new kind of functions. The packages are:
 
 - The JS parser modified: [@ull-esit-pl/parser-left-side](https://github.com/orgs/ULL-ESIT-PL/packages/npm/package/parser-left-side)
 - The AST transformation plugin: [@ull-esit-pl/babel-plugin-left-side-plugin ](https://github.com/orgs/ULL-ESIT-PL/packages/npm/package/babel-plugin-left-side-plugin) 
