@@ -71,7 +71,7 @@ If you set an entry `registry` in your `package.json` file that means this packa
 Then you can proceed to install the packages:
 
 ```
-npm i -D @babel/cli@7.10 @ull-esit-pl/babel-plugin-left-side-plugin @ull-esit-pl/babel-plugin-left-side-support @ull-esit-pl/parser-left-side 
+npm i -D @babel/cli@7.10 @ull-esit-pl-2425/babel-plugin-left-side-plugin @ull-esit-pl-2425/babel-plugin-left-side-support @ull-esit-pl-2425/parser-left-side 
 ```
 
 Your package.json `devDependencies` section will look similar to this:
