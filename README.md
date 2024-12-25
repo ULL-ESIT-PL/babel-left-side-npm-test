@@ -5,7 +5,7 @@
 
 
 This branch of this  repo illustrates how to use 
-Pablo Santana's set of packages [published in the GitHub registry](https://github.com/orgs/ULL-ESIT-PL/packages) inside the [ull-esit-pl](https://github.com/ULL-ESIT-PL/) organization. To see how to use the packages published from the repo [ULL-ESIT-PL-2425/parser-left-side-crguezl](https://github.com/ULL-ESIT-PL-2425/parser-left-side-crguezl) go to the branch [crguezl](https://github.com/ULL-ESIT-PL/babel-left-side-npm-test/tree/crguezl). 
+Pablo Santana's set of packages [published in the GitHub registry](https://github.com/orgs/ULL-ESIT-PL/packages) inside the [ull-esit-pl](https://github.com/ULL-ESIT-PL/) organization. To see how to use the packages published from the repo [ULL-ESIT-PL-2425/parser-left-side-crguezl](https://github.com/ULL-ESIT-PL-2425/parser-left-side-crguezl) go to the branch [crguezl](https://github.com/ULL-ESIT-PL/babel-left-side-npm-test/tree/crguezl) of this repo. 
 
 
 These packages extend the JavaScript language with a new kind of functions. The packages are:
