@@ -58,8 +58,8 @@ These packages use the GitHub registry instead of the npm registry. Therefore, r
 to set the registry entry in your `.npmrc` file:
 
 ```bash
-➜  babel-npm-test git:(main) ✗ cat ~/.npmrc | grep '@ull-esit-pl:'
-@ull-esit-pl:registry=https://npm.pkg.github.com
+➜  babel-left-side-npm-test git:(crguezl) cat ~/.npmrc | grep '@ull-esit-pl-2425'
+@ull-esit-pl-2425:registry=https://npm.pkg.github.com
 ```
 
 or set an entry `registry` in your `package.json` file:
