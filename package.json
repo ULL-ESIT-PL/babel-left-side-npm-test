@@ -7,6 +7,7 @@
   "scripts": {
     "save": "git ci -am doc; git push",
     "test": "npm run build && node example.cjs",
+    "examples/nested.js": "babel examples/nested.js | node",
     "build": "babel example.js -o example.cjs",
     "show": "npm run build && cat -n example.cjs",
     "clean": "rm -fR node_modules package-lock.json"
