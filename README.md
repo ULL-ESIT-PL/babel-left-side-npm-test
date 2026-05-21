@@ -152,10 +152,7 @@ node example.cjs
 ## References
 
 - Our tutorial on babel: https://github.com/ULL-ESIT-PL/babel-learning/tree/main
-- A tutorial in it describing how thhe packages are published: https://github.com/ULL-ESIT-PL/babel-learning/blob/main/doc/building-publishing.md
-- Branch pablo-tfg with the actual code implementation: https://github.com/ULL-ESIT-PL/babel-tanhauhau/tree/pablo-tfg
-- Some internal information: https://github.com/ULL-ESIT-PL/beca-colaboracion/tree/main
-- The original idea of the project is based on what is explained in this draft: https://www.authorea.com/users/147476/articles/1235078-function-expressions-on-the-left-side-of-assignments (submitted now to Science of Computer Programming
+- The original idea of the project is based on what is explained in this draft: https://www.authorea.com/users/147476/articles/1235078-function-expressions-on-the-left-side-of-assignments 
  journal)
 
 ## License
