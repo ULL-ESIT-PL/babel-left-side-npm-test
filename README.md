@@ -160,7 +160,9 @@ null
 
 ## References
 
-- Our tutorial on babel: https://github.com/ULL-ESIT-PL/babel-learning/tree/main
+- Our tutorial on Babel at: https://github.com/ULL-ESIT-PL/babel-learning/tree/main
+  - Section https://github.com/ULL-ESIT-PL/babel-learning/tree/main/src/array-else
+  - Section https://github.com/ULL-ESIT-PL/babel-learning/tree/main/src/left-side
 - The original idea of the project is based on what is explained in this draft: https://www.authorea.com/users/147476/articles/1235078-function-expressions-on-the-left-side-of-assignments 
  journal)
 
