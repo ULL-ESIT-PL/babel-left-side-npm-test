@@ -103,7 +103,7 @@ module.exports = {
 }
 ```
 
-and then compile it using the installed packages:
+and then compile [examples/example.js](examples/example.js) using the installed packages:
 
 ```js
 npx babel  example.js
@@ -147,6 +147,15 @@ node example.cjs
 ```
 5
 10
+```
+
+See also the [examples/multiparameters.js](/examples/multiparameters.js) example:
+
+```
+  babel-left-side-npm-test git:(main) npx babel  examples/multiparameter.js | node -
+3
+grasshopper
+null
 ```
 
 ## References
