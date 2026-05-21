@@ -149,6 +149,8 @@ node example.cjs
 10
 ```
 
+## Several parameters
+
 See also the [examples/multiparameter.js](/examples/multiparameter.js) example:
 
 ```
