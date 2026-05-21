@@ -1,18 +1,18 @@
 ## What is this?
 
 > [!CAUTION]
-> This is a work in progress. The syntax and the semantic of the proposed extension to JavaScript are not yet fully defined and tested. The packages are published in the GitHub registry, but they are not ready for production.
+> This is a repo testing the [TFG of Pablo Santana](https://riull.ull.es/xmlui/handle/915/43236).
+> The syntax and the semantic of the proposed extension to JavaScript are described in the TFG. 
+> The packages are published in the [ULL-ESIT-PL GitHub registry](https://github.com/orgs/ULL-ESIT-PL/packages).
 
 
-This branch of this  repo illustrates how to use 
-Pablo Santana's set of packages [published in the GitHub registry](https://github.com/orgs/ULL-ESIT-PL/packages) inside the [ull-esit-pl](https://github.com/ULL-ESIT-PL/) organization. To see how to use the packages published from the repo [ULL-ESIT-PL-2425/parser-left-side-crguezl](https://github.com/ULL-ESIT-PL-2425/parser-left-side-crguezl) go to the branch [crguezl](https://github.com/ULL-ESIT-PL/babel-left-side-npm-test/tree/crguezl) of this repo. 
-
-
+This repo illustrates how to use 
+the set of packages [published in the GitHub registry](https://github.com/orgs/ULL-ESIT-PL-2425/packages) inside the [ull-esit-pl-2425](https://github.com/ULL-ESIT-PL-2425/) organization. 
 These packages extend the JavaScript language with a new kind of functions. The packages are:
 
-- The JS parser modified: [@ull-esit-pl/parser-left-side](https://github.com/orgs/ULL-ESIT-PL/packages/npm/package/parser-left-side)
-- The AST transformation plugin: [@ull-esit-pl/babel-plugin-left-side-plugin ](https://github.com/orgs/ULL-ESIT-PL/packages/npm/package/babel-plugin-left-side-plugin) 
-- The support library: [@ull-esit-pl/babel-plugin-left-side-support](https://github.com/orgs/ULL-ESIT-PL/packages/npm/package/babel-plugin-left-side-support) 
+- The JS parser modified: [@ull-esit-pl-2425/babel-parser](https://github.com/orgs/ULL-ESIT-PL-2425/packages/npm/package/babel-parser)
+- The AST transformation plugin: [@ull-esit-pl-2425/babel-plugin-left-side ](https://github.com/orgs/ULL-ESIT-PL-2425/packages/npm/package/babel-plugin-left-side) 
+- The support library: [@ull-esit-pl-2425/babel-plugin-left-side-support](https://github.com/orgs/ULL-ESIT-PL-2425/packages/npm/package/babel-plugin-left-side-support) 
 
 ### The proposed Syntax and Semantic
 
@@ -47,25 +47,24 @@ You can fork this repo and test the packages in your own workspace.
 
 ## Install
 
-```bash
 Here are the node and npm versions I have used to test the packages:
 
 ```bash
-➜  babel-npm-test node --version
-v20.5.0
-➜  babel-npm-test npm --version
-9.8.0
+➜  babel-left-side-npm-test git:(crguezl) ✗ node --version
+v25.6.0
+➜  babel-left-side-npm-test git:(crguezl) ✗ npm --version
+11.12.1
 ```
 
 These packages use the GitHub registry instead of the npm registry. Therefore, remember
 to set the registry entry in your `.npmrc` file:
 
 ```bash
-➜  babel-npm-test git:(main) ✗ cat ~/.npmrc | grep '@ull-esit-pl:'
+➜  babel-left-side-npm-test git:(2026) ✗ cat ~/.npmrc | grep '@ull-esit-pl:' 
 @ull-esit-pl:registry=https://npm.pkg.github.com
 ```
 
-or set an entry `registry` in your `package.json` file:
+If you set an entry `registry` in your `package.json` file that means this package will be published in the mentioned registry:
 
 ```bash
 ➜  babel-npm-test git:(main) ✗ jq '.registry' package.json 
@@ -75,7 +74,7 @@ or set an entry `registry` in your `package.json` file:
 Then you can proceed to install the packages:
 
 ```
-npm i -D @babel/cli@7.10 @ull-esit-pl/babel-plugin-left-side-plugin @ull-esit-pl/babel-plugin-left-side-support @ull-esit-pl/parser-left-side 
+npm i   
 ```
 
 Your package.json `devDependencies` section will look similar to this:
@@ -107,7 +106,7 @@ module.exports = {
 and then compile it using the installed packages:
 
 ```js
-➜  babel-npm-test npx babel  example.js
+npx babel  example.js
 ```
 This will output the compiled code to the console:
 
@@ -131,7 +130,10 @@ If you want to save it to a file, use the `-o` option.
 You can pipe the output to `node`:
 
 ```bash
-➜  babel-npm-test npx babel  example.js | node  -
+npx babel  example.js | node  -
+```
+This will output:
+```
 5
 10
 ```
@@ -139,8 +141,10 @@ You can pipe the output to `node`:
 or alternatively, use the `-o` option to save the output to a file and then run it:
 
 ```
-➜  babel-left-side-npm-test git:(main) npx babel  example.js -o example.cjs
-➜  babel-left-side-npm-test git:(main) ✗ node example.cjs 
+npx babel  example.js -o example.cjs
+node example.cjs 
+```
+```
 5
 10
 ```
@@ -153,13 +157,6 @@ or alternatively, use the `-o` option to save the output to a file and then run 
 - Some internal information: https://github.com/ULL-ESIT-PL/beca-colaboracion/tree/main
 - The original idea of the project is based on what is explained in this draft: https://www.authorea.com/users/147476/articles/1235078-function-expressions-on-the-left-side-of-assignments (submitted now to Science of Computer Programming
  journal)
-
-## TODO
-
-- We need version numbers to control the progress
-- README.md is the one babel has. It has to change to be specific about the extension for the three packages,
-- Add `-D` to all install instructions and remove the version number: `npm install @ull-esit-pl/babel-plugin-left-side-plugin -D`
-- Do we need two separated packages for the plugin and the support? Can we have a single package?
 
 ## License
 
