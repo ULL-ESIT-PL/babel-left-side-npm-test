@@ -1,7 +1,7 @@
 ## What is this?
 
 > [!CAUTION]
-> This is a repo testing the [TFG of Pablo Santana](https://riull.ull.es/xmlui/handle/915/43236).
+> This is a repo showing how to use the JS extension described in the [TFG of Pablo Santana](https://riull.ull.es/xmlui/handle/915/43236).
 > The syntax and the semantic of the proposed extension to JavaScript are described in the TFG. 
 > The packages are published in the [ULL-ESIT-PL GitHub registry](https://github.com/orgs/ULL-ESIT-PL/packages).
 
