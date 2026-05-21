@@ -149,15 +149,26 @@ node example.cjs
 10
 ```
 
-## Several parameters
+## More complex examples
 
-See also the [examples/multiparameter.js](/examples/multiparameter.js) example:
+The assignable function at [examples/multiparameter.js](/examples/multiparameter.js) has several parameters:
 
 ```
   babel-left-side-npm-test git:(main) npx babel  examples/multiparameter.js | node -
 3
 grasshopper
 null
+```
+
+The example [examples/nested.js](/examples/nested.js) shows the case of assignable functions returning 
+assignable functions:
+```
+➜  babel-left-side-npm-test git:(main) npx babel  examples/nested.js| node -                            
+
+5
+13
+<FUNCTION_OBJECT>
+8
 ```
 
 ## References
