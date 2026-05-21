@@ -10,8 +10,8 @@ This repo illustrates how to use
 the set of packages [published in the GitHub registry](https://github.com/orgs/ULL-ESIT-PL/packages) inside the [ull-esit-pl](https://github.com/ULL-ESIT-PL/) organization. 
 These packages extend the JavaScript language with a new kind of functions. The packages are:
 
-- The JS parser modified: [@ull-esit-pl/babel-parser](https://github.com/orgs/ULL-ESIT-PL/packages/npm/package/babel-parser)
-- The AST transformation plugin: [@ull-esit-pl/babel-plugin-left-side ](https://github.com/orgs/ULL-ESIT-PL/packages/npm/package/babel-plugin-left-side) 
+- The JS parser modified: [@ull-esit-pl/babel-parser-left-side](https://github.com/orgs/ULL-ESIT-PL/packages/npm/package/parser-left-side)
+- The AST transformation plugin: [@ull-esit-pl/babel-plugin-left-side-plugin](https://github.com/orgs/ULL-ESIT-PL/packages/npm/package/babel-plugin-left-side-plugin) 
 - The support library: [@ull-esit-pl/babel-plugin-left-side-support](https://github.com/orgs/ULL-ESIT-PL/packages/npm/package/babel-plugin-left-side-support) 
 
 ### The proposed Syntax and Semantic
