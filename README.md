@@ -149,7 +149,7 @@ node example.cjs
 10
 ```
 
-See also the [examples/multiparameters.js](/examples/multiparameters.js) example:
+See also the [examples/multiparameter.js](/examples/multiparameter.js) example:
 
 ```
   babel-left-side-npm-test git:(main) npx babel  examples/multiparameter.js | node -
