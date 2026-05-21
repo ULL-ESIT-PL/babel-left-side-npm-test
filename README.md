@@ -43,7 +43,7 @@ console.log(foo(10)); //  5
 console.log(foo(5));  // 10
 ```
 
-You can fork this repo and test the packages in your own workspace.
+You can clone or fork this repo and test the packages in your own workspace.
 
 ## Install
 
