@@ -7,12 +7,12 @@
 
 
 This repo illustrates how to use 
-the set of packages [published in the GitHub registry](https://github.com/orgs/ULL-ESIT-PL-2425/packages) inside the [ull-esit-pl-2425](https://github.com/ULL-ESIT-PL-2425/) organization. 
+the set of packages [published in the GitHub registry](https://github.com/orgs/ULL-ESIT-PL/packages) inside the [ull-esit-pl](https://github.com/ULL-ESIT-PL/) organization. 
 These packages extend the JavaScript language with a new kind of functions. The packages are:
 
-- The JS parser modified: [@ull-esit-pl-2425/babel-parser](https://github.com/orgs/ULL-ESIT-PL-2425/packages/npm/package/babel-parser)
-- The AST transformation plugin: [@ull-esit-pl-2425/babel-plugin-left-side ](https://github.com/orgs/ULL-ESIT-PL-2425/packages/npm/package/babel-plugin-left-side) 
-- The support library: [@ull-esit-pl-2425/babel-plugin-left-side-support](https://github.com/orgs/ULL-ESIT-PL-2425/packages/npm/package/babel-plugin-left-side-support) 
+- The JS parser modified: [@ull-esit-pl/babel-parser](https://github.com/orgs/ULL-ESIT-PL/packages/npm/package/babel-parser)
+- The AST transformation plugin: [@ull-esit-pl/babel-plugin-left-side ](https://github.com/orgs/ULL-ESIT-PL/packages/npm/package/babel-plugin-left-side) 
+- The support library: [@ull-esit-pl/babel-plugin-left-side-support](https://github.com/orgs/ULL-ESIT-PL/packages/npm/package/babel-plugin-left-side-support) 
 
 ### The proposed Syntax and Semantic
 
