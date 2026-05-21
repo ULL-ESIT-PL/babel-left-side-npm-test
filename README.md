@@ -1,7 +1,9 @@
 ## What is this?
 
 > [!CAUTION]
-> This is a work in progress. The syntax and the semantic of the proposed extension to JavaScript are not yet fully defined and tested. The packages are published in the GitHub registry, but they are not ready for production.
+> This is a repo testing the [TFG of Pablo Santana](https://riull.ull.es/xmlui/handle/915/43236).
+> The syntax and the semantic of the proposed extension to JavaScript are described in the TFG. 
+> The packages are published in the [ULL-ESIT-PL GitHub registry](https://github.com/orgs/ULL-ESIT-PL/packages).
 
 
 This branch `crguezl` from this  repo illustrates how to use 
@@ -49,10 +51,10 @@ You can fork this repo and test the packages in your own workspace.
 Here are the node and npm versions I have used to test the packages:
 
 ```bash
-➜  babel-npm-test node --version
-v20.5.0
-➜  babel-npm-test npm --version
-9.8.0
+➜  babel-left-side-npm-test git:(crguezl) ✗ node --version
+v25.6.0
+➜  babel-left-side-npm-test git:(crguezl) ✗ npm --version
+11.12.1
 ```
 
 These packages use the GitHub registry instead of the npm registry. Therefore, remember
