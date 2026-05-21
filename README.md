@@ -16,7 +16,7 @@ These packages extend the JavaScript language with a new kind of functions. The 
 
 ### The proposed Syntax and Semantic
 
-These packages extend JS  with a new kind of functions, the `@@` functions (we lack of a name for this class of functions: *assignable*? *pure*?). Here is an example of declaring an *assignable* function:
+These packages extend JS  with a new kind of functions, the `@@` functions (we lack of a name for this class of functions: *assignable*?). Here is an example of declaring an *assignable* function:
 
 ```js 
 function @@ foo(bar) {
